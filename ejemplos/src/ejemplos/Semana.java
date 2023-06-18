@@ -3,15 +3,9 @@ package ejemplos;
 class Semana {
 	public void listado (int horas) 
 	{
-		int dia;
-		dia = diaSemana();
-		//...		
+	System.out.println("hola mundo");	 
+		
 	}
-	int diaSemana() 
-	{	}	
 }
-Semana nueva =  new Semana();
-nueva.listado(23);
-
 
 
