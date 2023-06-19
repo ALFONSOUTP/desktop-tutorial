@@ -5,7 +5,7 @@ public class CalculoFact {
 		public static void main (String [] a) 
 		{
 			final int M =15;
-			for (int n = 1; i<=M; i++)
+			for (int n = 1; n<=M; n++)
 				System.out.println(n + "! =" + matem.factorial(n));
 		}	
 			
