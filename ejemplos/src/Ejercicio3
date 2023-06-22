@@ -1,0 +1,39 @@
+package ejercicio3;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+    public static void main(String[] args) {
+        // el mayor y menor de unos numeros
+        Scanner sc=new Scanner(System.in);
+        // declarar variables
+        int mayor = 0; int menor = 0;
+        int []num = new int[50];
+        // entrada
+        System.out.println("Ingrese el numero " +(1)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(2)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(3)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(4)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(5)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(6)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(7)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(8)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(9)+ " a evaluar:");
+        System.out.println("Ingrese el numero " +(10)+ " a evaluar:");
+        // bucle: for
+        for (int i = 1; i < 11; i++) { 
+            if (mayor < num[i]) {
+                mayor = num[i];
+        }} menor = mayor;
+        for (int i = 0; i < 11; i++) {
+            if (menor < num[i]) {
+                menor = num[i];
+        }    
+        }
+            System.out.println("Evaluacion de numeros");
+            System.out.println("El mayor numero es"+mayor+"y el menor numero es"+menor);
+            
+        }
+    
+    }
